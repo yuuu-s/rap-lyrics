@@ -19,7 +19,7 @@ genius = Genius(genius_token,  timeout=genius_timeout, sleep_time=genius_sleepti
 file_name = 'data/rapper_names/rapper_names.txt'
 rappers  = readNamesFromLocal(file_name)
 
-for i, rapper in enumerate(rappers[100:102]):
+for i, rapper in enumerate(rappers):
     print('==============')
     print(f'rapper number {i}')
     try:
