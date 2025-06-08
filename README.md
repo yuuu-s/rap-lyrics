@@ -1,0 +1,1 @@
+This project aims to download approximately 30,000 rap lyrics from Genius.com and store them in JSON format. The collected lyrics will be used to fine-tune a large language model (LLM) in order to explore the feasibility of building a rap lyrics generator.
